@@ -26,7 +26,13 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "tokyonight", "habamax" } },
+  -- install = { colorscheme = { "tokyonight", "habamax" } },
+  install = {
+    -- { "folke/tokyonight.nvim", lazy = false, priority = 1000, opts = { style = "day" } },
+    colorscheme =     -- { "catppuccin/nvim", name = "catppuccin", lazy = false, priority = 1000 },
+{ "rebelot/kanagawa.nvim", name = "kanagawa", lazy = false, priority = 1000 },
+    { "shatur/neovim-ayu.nvim", name = "ayu", lazy = false, priority = 1000 },
+  },
   checker = { enabled = true }, -- automatically check for plugin updates
   performance = {
     rtp = {
