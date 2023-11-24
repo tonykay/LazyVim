@@ -2,10 +2,11 @@ return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
   { "shatur/neovim-ayu" },
-  -- { "shatur/neovim-ayum" },
+  { "rktjmp/lush.nvim" },
   { "folke/tokyonight.nvim" },
   { "barrientosvctor/abyss.nvim" },
   { "rebelot/kanagawa.nvim" },
+  { "uloco/bluloco.nvim" },
 
   -- Configure LazyVim to load gruvbox
   {

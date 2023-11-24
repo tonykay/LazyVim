@@ -29,9 +29,10 @@ require("lazy").setup({
   -- install = { colorscheme = { "tokyonight", "habamax" } },
   install = {
     -- { "folke/tokyonight.nvim", lazy = false, priority = 1000, opts = { style = "day" } },
-    colorscheme =     -- { "catppuccin/nvim", name = "catppuccin", lazy = false, priority = 1000 },
-{ "rebelot/kanagawa.nvim", name = "kanagawa", lazy = false, priority = 1000 },
+    -- { "catppuccin/nvim", name = "catppuccin", lazy = false, priority = 1000 },
+    colorscheme = { "rebelot/kanagawa.nvim", name = "kanagawa", lazy = false, priority = 1000 },
     { "shatur/neovim-ayu.nvim", name = "ayu", lazy = false, priority = 1000 },
+    { "uloco/bluloco.nvim", lazy = false, priority = 1000, dependencies = { "rktjmp/lush.nvim" } },
   },
   checker = { enabled = true }, -- automatically check for plugin updates
   performance = {
