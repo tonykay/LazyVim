@@ -7,6 +7,7 @@ return {
   { "barrientosvctor/abyss.nvim" },
   { "rebelot/kanagawa.nvim" },
   { "uloco/bluloco.nvim" },
+  { "AstroNvim/astrotheme" },
 
   -- Configure LazyVim to load gruvbox
   {
@@ -14,7 +15,8 @@ return {
     opts = {
       -- colorscheme = "default",
       -- colorscheme = "ayu-mirage",
-      colorscheme = "ayu",
+      -- colorscheme = "ayu",
+      colorscheme = "astrotheme",
       -- colorscheme = "tokyonight",
       -- colorscheme = "abyss",
       -- colorscheme = "kanagawa",

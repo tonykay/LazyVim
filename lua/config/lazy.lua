@@ -33,6 +33,7 @@ require("lazy").setup({
     colorscheme = { "rebelot/kanagawa.nvim", name = "kanagawa", lazy = false, priority = 1000 },
     { "shatur/neovim-ayu.nvim", name = "ayu", lazy = false, priority = 1000 },
     { "uloco/bluloco.nvim", lazy = false, priority = 1000, dependencies = { "rktjmp/lush.nvim" } },
+    { "AstroNvim/astrotheme", lazy = false, priority = 1000 },
   },
   checker = { enabled = true }, -- automatically check for plugin updates
   performance = {
